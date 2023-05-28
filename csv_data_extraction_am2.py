@@ -1,7 +1,8 @@
+# reading the links from csv created before and extrxting info from each page
 from bs4 import BeautifulSoup
 import requests
 import csv
-
+ 
 # Function to extract product details from URL
 def extract_product_details(url):
     # Send a GET request to the product URL
